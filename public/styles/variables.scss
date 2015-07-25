@@ -1,14 +1,19 @@
 // Font Family
 $baseFontFamily: 'Georgia','serif';
+$altFontFamily: 'Tahoma','sans-serif';
 
 //Colors
 
 $baseFontColor: rgb(215, 223, 233);
 $logoFontColor: rgb(244, 254, 69);
-$headerColor: rgb(52, 28, 73);
+$headerColor: rgb(85,44,0);
+$headerFontColor: rgb(170,116,57);
+$footerColor: rgb(250,250,130);
 $bodyColor: rgb(216, 213, 241);
+$pageColor: rgb(240,240,240);
 
 // Sizes
 $bodyFontSize: 16px;
-$logoFontSize: 3rem;
+$sloganFontSize: 1.5rem;
 $footerFontSize: .8rem;
+$navFontSize: 1.1rem;

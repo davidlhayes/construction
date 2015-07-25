@@ -8,13 +8,21 @@
   <body>
     <div id="wrapper">
       <header>
-        <h1>Calico Construction Company</h1>
+        <div id="logo"><img src="/images/Calico-Logo-3.png"></div>
+        <div id="slogan"><h3>The best in the Southwest</h3></div>
+        <nav>
+          <ul>
+            <li><a href='/'>Home</a></li>
+            <li><a href='/about'>About</a></li>
+            <li><a href='/contact'>Contact Us</a></li>
+          </ul>
+        </nav>
       </header>
-
+      <main>
       <%= yield %>  <!-- insert routes here -->
-
+    </main>
       <footer>
-        <h2>&Copy 2015 - Calico Construction Company</h2>
+        <h2>&copy; 2015 - Calico Construction Company</h2>
       </footer>
     </div>
   </body>
